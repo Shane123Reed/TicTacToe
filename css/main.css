@@ -81,3 +81,15 @@ img {
     margin-top: 5px;
     opacity: .7;
 }
+
+@media (max-width: 890px) {
+    body {
+        background-size: 150%;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-size: 230%;
+    }
+}
