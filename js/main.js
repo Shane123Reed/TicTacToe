@@ -1,10 +1,21 @@
 var turn = 1;
+var urlr = "index.html"
+var w = window.innerWidth;
+window.onkeydown = keydown;
 
-/*document.addEventListener('keydown', function(event) {
-    if(event.keyCode == 82) {
-        alert('R was pressed');
-    }
-}*/
+// function responsive(event) {
+// 	if(w < 580) {
+// 	var body = document.getElementsByTagName('body');
+// 	body.style.backgroundSize = "200px 500px";
+// 	}
+// }
+// document.getElementById('body').style.backgroundSize = "20px 20px";
+
+function keydown(event) {
+  if(event.keyCode == 78)
+  document.location.href = urlr;
+}
+
 
 function playBox() {
 	
@@ -55,3 +66,10 @@ function navCells() {
 
 	*/
 }
+
+// function pageLoaded() {
+// 	var squares = document.getElementsByClassName("sqr");
+// 	for (i = 0; i < squares.length; ++i) {
+// 		squares[i].onclick = clickDiv;
+// 	};
+// }
